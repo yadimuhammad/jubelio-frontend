@@ -1,0 +1,28 @@
+body, html {
+    background-color: #eee9e9;
+}
+.main-wrapper {
+    width: 90%;
+    /* background-color:red; */
+    margin : 0 auto;
+    margin-top : 1%;
+    max-height: 600px;
+    overflow-y: auto;
+    display:block;
+}
+::-webkit-scrollbar,::-webkit-scrollbar-button,::-webkit-scrollbar-track,::-webkit-scrollbar-track-piece,::-webkit-scrollbar-thumb,::-webkit-scrollbar-corner,::-webkit-resizer
+{opacity:0; }
+.button-wrapper {
+    width: 90%;
+    display:block;
+    margin-top:1%;
+}
+.button-wrapper button {
+    float: right;
+    box-shadow:none;
+    background-color:#8dff76;
+    border:none;
+    padding: 15px 25px 15px 25px;
+    font-size: 15pt;
+    color: white;
+}

@@ -1,0 +1,77 @@
+/* Design inspiration:  https://dribbble.com/shots/1978243-Latest-News */
+body, html {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .card {
+    width: 15%;
+    display: inline-block;
+    /* float:left; */
+    padding :2%;
+    margin-top : 0;
+    /* box-shadow: 5px 5px 5px 5px #000; */
+    transition: .25s;
+  }
+  .card:hover {
+    /* box-shadow: 1px 1px 29px 9px #271580; */
+    cursor: pointer;
+  }
+  .card:hover .button-primary {
+    transform: translate(10px, 0);
+  }
+  
+  .card-header {
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .card-header--title {
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .card-body {
+    padding: 15px;
+    background-color: #fff;
+    width: 100%;
+  }
+  
+  .date {
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+  }
+  
+  .body-content {
+    height: 40px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    line-height: 1.8;
+    display:block;
+    overflow-y:auto;
+  }
+  
+  .button-primary {
+    border: none;
+    box-shadow: none;
+    font-family: inherit;
+    background-color: transparent;
+    color: #341cac;
+    font-size: 15px;
+    transition: .25s;
+  }
+  .button-primary i {
+    padding-right: 4px;
+  }
+  
+  .designer-link {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+  }
+  
