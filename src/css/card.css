@@ -19,6 +19,28 @@ body, html {
   .card:hover .button-primary {
     transform: translate(10px, 0);
   }
+
+  .card input{
+    border: 0;
+    background-color: #eee9e9;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    overflow: auto;
+    width: 90%;
+  }
+  .card label {
+    float:left;
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+  .card textarea {
+    border: 0;
+    background-color: #eee9e9;
+    height: 60px;
+    width: 90%;
+    padding: 5px;
+  }
   
   .card-header {
     height: 100px;
@@ -29,11 +51,10 @@ body, html {
     color: #fff;
   }
   
-  .card-header--title {
-    text-transform: uppercase;
-    margin: 0;
+  .card-title {
+    height : 50px;
+    overflow-y : auto;
   }
-  
   .card-body {
     padding: 15px;
     background-color: #fff;
@@ -75,3 +96,15 @@ body, html {
     display: block;
   }
   
+  .saveButton {
+    border: 0;
+    width: 94%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top :5%;
+    background-color:#8dff76;
+    color: white;
+  }
+  .saveButton button:disabled {
+    background-color:grey;
+  }
